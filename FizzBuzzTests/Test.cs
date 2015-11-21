@@ -3,13 +3,13 @@ using System;
 
 namespace FizzBuzzTests
 {
-	[TestFixture ()]
-	public class FizzBuzzTest
-	{
-		[Test ()]
-		public void TestCase ()
-		{
-		}
-	}
+    [TestFixture ()]
+    public class FizzBuzzTest
+    {
+        [Test ()]
+        public void TestCase ()
+        {
+        }
+    }
 }
 
