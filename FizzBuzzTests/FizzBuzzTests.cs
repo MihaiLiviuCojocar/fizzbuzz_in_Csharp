@@ -56,4 +56,16 @@ namespace FizzBuzzTests
             Assert.IsFalse (fizzbuzz.IsDivisibleByFifteen (1));
         }
     }
+
+    [TestFixture ()]
+    public class PlayingTheGame
+    {
+        private FizzBuzz fizzbuzz = new FizzBuzz ();
+
+        [Test ()]
+        public void ShouldReturnFizzGivenThree ()
+        {
+            Assert.AreEqual ("Fizz", fizzbuzz.Play (3));
+        }
+    }
 }

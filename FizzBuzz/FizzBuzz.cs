@@ -16,4 +16,9 @@ public class FizzBuzz
     {
         return number % 15 == 0;
     }
+
+    public string Play(int number)
+    {
+        return "Fizz";
+    }
 }
