@@ -6,4 +6,9 @@ public class FizzBuzz
     {
         return number % 3 == 0;
     }
+
+    public bool IsDivisibleByFive(int number)
+    {
+        return number % 5 == 0;
+    }
 }

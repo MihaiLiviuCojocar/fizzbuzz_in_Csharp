@@ -4,7 +4,7 @@ using System;
 namespace FizzBuzzTests
 {
     [TestFixture ()]
-    public class FizzBuzzTest
+    public class DivisibleByThree
     {
         private FizzBuzz fizzbuzz = new FizzBuzz ();
 
@@ -18,6 +18,24 @@ namespace FizzBuzzTests
         public void ShouldKnowThatOneIsNotDivisibleByThree ()
         {
             Assert.IsFalse (fizzbuzz.IsDivisibleByThree (1));
+        }
+    }
+
+    [TestFixture ()]
+    public class DivisibleByFive
+    {
+        private FizzBuzz fizzbuzz = new FizzBuzz ();
+
+        [Test ()]
+        public void ShouldKnowThatFiveIsDivisibleByFive ()
+        {
+            Assert.IsTrue (fizzbuzz.IsDivisibleByFive (5));
+        }
+
+        [Test ()]
+        public void ShouldKnowThatOneIsNotDivisibleByFive ()
+        {
+            Assert.IsFalse (fizzbuzz.IsDivisibleByFive (1));
         }
     }
 }
