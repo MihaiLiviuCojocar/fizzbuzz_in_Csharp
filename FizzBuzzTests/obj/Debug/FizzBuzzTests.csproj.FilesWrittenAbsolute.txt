@@ -1,0 +1,8 @@
+/Users/mihai/Projects/FizzBuzz/FizzBuzzTests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/mihai/Projects/FizzBuzz/FizzBuzzTests/bin/Debug/FizzBuzzTests.dll.mdb
+/Users/mihai/Projects/FizzBuzz/FizzBuzzTests/bin/Debug/FizzBuzzTests.dll
+/Users/mihai/Projects/FizzBuzz/FizzBuzzTests/obj/Debug/FizzBuzzTests.dll
+/Users/mihai/Projects/FizzBuzz/FizzBuzzTests/obj/Debug/FizzBuzzTests.dll.mdb
+/Users/mihai/Projects/FizzBuzz/FizzBuzzTests/bin/Debug/nunit.framework.dll
+/Users/mihai/Projects/FizzBuzz/FizzBuzzTests/bin/Debug/FizzBuzz.dll
+/Users/mihai/Projects/FizzBuzz/FizzBuzzTests/bin/Debug/FizzBuzz.dll.mdb
