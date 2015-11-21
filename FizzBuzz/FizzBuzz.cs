@@ -19,6 +19,15 @@ public class FizzBuzz
 
     public string Play(int number)
     {
-        return "Fizz";
+        if (this.IsDivisibleByFifteen (number)) {
+            return "FizzBuzz";
+        }
+        if (this.IsDivisibleByThree (number)) {
+            return "Fizz";
+        }
+        if (this.IsDivisibleByFive (number)) {
+            return "Buzz";
+        }
+        return number.ToString ();
     }
 }

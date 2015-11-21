@@ -67,5 +67,23 @@ namespace FizzBuzzTests
         {
             Assert.AreEqual ("Fizz", fizzbuzz.Play (3));
         }
+
+        [Test ()]
+        public void ShouldReturnBuzzGivenFive ()
+        {
+            Assert.AreEqual ("Buzz", fizzbuzz.Play (5));
+        }
+
+        [Test ()]
+        public void ShouldReturnFizzBuzzGivenFifteen ()
+        {
+            Assert.AreEqual ("FizzBuzz", fizzbuzz.Play (15));
+        }
+
+        [Test ()]
+        public void ShouldReturnTwoGivenTwo ()
+        {
+            Assert.AreEqual ("2", fizzbuzz.Play (2));
+        }
     }
 }
