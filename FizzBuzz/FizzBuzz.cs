@@ -11,4 +11,9 @@ public class FizzBuzz
     {
         return number % 5 == 0;
     }
+
+    public bool IsDivisibleByFifteen(int number)
+    {
+        return number % 15 == 0;
+    }
 }

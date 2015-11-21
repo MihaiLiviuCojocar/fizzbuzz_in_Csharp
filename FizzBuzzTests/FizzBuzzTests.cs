@@ -38,4 +38,22 @@ namespace FizzBuzzTests
             Assert.IsFalse (fizzbuzz.IsDivisibleByFive (1));
         }
     }
+
+    [TestFixture ()]
+    public class DivisiblebyFifteen
+    {
+        private FizzBuzz fizzbuzz = new FizzBuzz ();
+
+        [Test ()]
+        public void ShouldKnowThatFifteenIsDivisibleByFifteen ()
+        {
+            Assert.IsTrue (fizzbuzz.IsDivisibleByFifteen (15));
+        }
+
+        [Test ()]
+        public void ShouldKnowThatOneIsNotDivisibleByFifteen ()
+        {
+            Assert.IsFalse (fizzbuzz.IsDivisibleByFifteen (1));
+        }
+    }
 }
