@@ -6,17 +6,17 @@ namespace FizzBuzzTests
     [TestFixture ()]
     public class FizzBuzzTest
     {
+        private FizzBuzz fizzbuzz = new FizzBuzz ();
+
         [Test ()]
         public void ShouldKnowThatThreeIsDivisibleByThree ()
         {
-            FizzBuzz fizzbuzz = new FizzBuzz ();
             Assert.IsTrue (fizzbuzz.IsDivisibleByThree (3));
         }
 
         [Test ()]
         public void ShouldKnowThatOneIsNotDivisibleByThree ()
         {
-            FizzBuzz fizzbuzz = new FizzBuzz ();
             Assert.IsFalse (fizzbuzz.IsDivisibleByThree (1));
         }
     }
